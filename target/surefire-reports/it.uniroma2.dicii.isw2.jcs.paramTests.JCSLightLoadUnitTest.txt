@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.344 s <<< FAILURE! - in it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest
-it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest.testSimpleLoad  Time elapsed: 10.336 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.229 s <<< FAILURE! - in it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest
+it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest.testSimpleLoad  Time elapsed: 9.218 s  <<< FAILURE!
 java.lang.AssertionError: [1002:key] should not be null
 	at it.uniroma2.dicii.isw2.jcs.paramTests.JCSLightLoadUnitTest.testSimpleLoad(JCSLightLoadUnitTest.java:55)
 
