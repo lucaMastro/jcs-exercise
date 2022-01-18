@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="7.265" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="3.973" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire/surefirebooter16070230507891107548.jar /home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire 2022-01-17T16-49-37_366-jvmRun1 surefire11222782820455375388tmp surefire_01677615933517739998tmp"/>
+    <property name="sun.java.command" value="/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire/surefirebooter11095310562381180732.jar /home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire 2022-01-18T16-33-09_534-jvmRun1 surefire6259439826554050739tmp surefire_02030800063524680645tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/test-classes:/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/classes:/home/luca/.m2/repository/org/apache/jcs/jcs/1.3/jcs-1.3.jar:/home/luca/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/luca/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/home/luca/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/home/luca/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/home/luca/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/luca/.m2/repository/concurrent/concurrent/1.0/concurrent-1.0.jar:/home/luca/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/luca/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire/surefirebooter16070230507891107548.jar"/>
+    <property name="surefire.real.class.path" value="/home/luca/Scrivania/ISW2/esercizi/de-angelis/lezione22/jcs-exercise/target/surefire/surefirebooter11095310562381180732.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.18.04"/>
     <property name="user.name" value="luca"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testTwoDeepRemoval" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="2.527"/>
-  <testcase name="testSingleDepthRemoval" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="2.291"/>
-  <testcase name="testClear" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="1.203"/>
-  <testcase name="testClearRepeatedlyWithoutError" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="1.137"/>
+  <testcase name="testTwoDeepRemoval" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="1.443"/>
+  <testcase name="testSingleDepthRemoval" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="0.985"/>
+  <testcase name="testClear" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="0.757"/>
+  <testcase name="testClearRepeatedlyWithoutError" classname="it.uniroma2.dicii.isw2.jcs.paramTests.JCSRemovalSimpleConcurrentTest" time="0.731"/>
 </testsuite>

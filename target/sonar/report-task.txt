@@ -1,7 +1,7 @@
 organization=lucamastro
-projectKey=lucaMastro_jcs_exercise
+projectKey=lucaMastro_jcs-exercise
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.26091
-dashboardUrl=https://sonarcloud.io/dashboard?id=lucaMastro_jcs_exercise
-ceTaskId=AX5o2kNSes0pjwd2KWJj
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX5o2kNSes0pjwd2KWJj
+dashboardUrl=https://sonarcloud.io/dashboard?id=lucaMastro_jcs-exercise
+ceTaskId=AX5t1v73WdhF5yJlpmzy
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX5t1v73WdhF5yJlpmzy

@@ -21,6 +21,7 @@ package it.uniroma2.dicii.isw2.jcs.paramTests;
 
 import org.apache.jcs.JCS;
 import org.apache.jcs.access.exception.CacheException;
+import org.apache.jcs.engine.behavior.ICompositeCacheAttributes;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
@@ -38,9 +39,9 @@ public class JCSLightLoadUnitTest
 
     @Test
     public void testSimpleLoad() throws CacheException {
-        //        ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
-        //        cattr.setMaxObjects( 20002 );
-        //        jcs.setCacheAttributes( cattr );
+                ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
+                cattr.setMaxObjects( 20002 );
+                jcs.setCacheAttributes( cattr );
 
         for ( int i = 1; i <= items; i++ )
         {
