@@ -15,7 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <argLine></argLine>
 
-        <sonar.projectKey>lucaMastro_jcs_exercise</sonar.projectKey>
+        <sonar.projectKey>lucaMastro_jcs-exercise</sonar.projectKey>
         <sonar.organization>lucamastro</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
