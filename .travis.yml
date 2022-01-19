@@ -1,14 +1,13 @@
-{
-  "language": "java",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "install": [
-    "true"
-  ],
+language: "java"
+os: "linux"
+dist: "xenial"
+install: "true"
+addons:
+  sonarcloud:
+    organization: "lucamastro"
+    token:
+      secure: "OpghmMF+Ny1Vw1fWtYhZtd79+z/5itML9oXR8DfWqE02uWW2cxpdhWfXou1u8VAPTRxIOspsBeFVV/eYo0bAPgx5WP7O1yvD1n613FDoHAmBZy1mKtf188EG7Z71yR9KQOXV0fGj+YMx0jPcrItyFmTGiJkKZbmFyshLT4NQZIc11j63t3r70iLgSwoKQ2LdyJP+f6NSEvhn0ENYtm/vwLhv3uMfw1FOrMJXXCMw+Bq0khYALJwKbpJWnEgYCfpdEnRMW7Ox8THoiJeq4ozVPd8E51vxenIb8MybS00KYNAcicZRzGaG+tNI9BT/yqyd8qPwbEm17dmca+rW35ItWKvolKt6QOudp7XkHFu7fdOls93r5oqGTj4/9NYKYnttlilKloB/4q7iLYzCPrHep1wAFIUHtBOxiQeOg6yuqG+rc2UlIsAuPVsKGkWZVOKSoaUKGHMcOYG92f7daD7em0QnWnmc6IsGEWfaG8DReo7/DCyC/1LAzQb5K/oVRy9ukihJYfJbCmx/UnyZOaNrH3rK59yPSjPfnc6lAncziJwWYSb1x2l46P6PmV9e/ymHP69aWQyM3zgKEors0iq8pdhOQsyOVhD6Wyn27Z98w7G+VEO/7jWLSF28R39+PjwdSv24aiQ+YCsIXSBOzva4HF4FqAD0MmsUgW41oNLUSzQ=" # encrypted value of your token
 
-  "script": [
-    "mvn verify sonar:sonar clean package"
-  ]
-}
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
