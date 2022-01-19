@@ -9,6 +9,6 @@
   ],
 
   "script": [
-    "mvn clean package"
+    "mvn verify sonar:sonar clean package"
   ]
 }
