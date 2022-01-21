@@ -65,6 +65,6 @@ public class JCSLightLoadUnitTest
     public void configure() throws CacheException {
         JCS.setConfigFilename( "/TestSimpleLoad.ccf" );
         jcs = JCS.getInstance( "testCache1" );
-        items = 2000;
+        items = 20000;
     }
 }
