@@ -39,9 +39,9 @@ public class JCSLightLoadUnitTest
 
     @Test
     public void testSimpleLoad() throws CacheException {
-                ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
-                cattr.setMaxObjects( 20002 );
-                jcs.setCacheAttributes( cattr );
+        ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
+        cattr.setMaxObjects( 20002 );
+        jcs.setCacheAttributes( cattr );
 
         for ( int i = 1; i <= items; i++ )
         {
