@@ -40,7 +40,7 @@ JaCoCo Coverage Report,org.apache.jcs.utils.struct,LRUElementDescriptor,14,0,0,0
 JaCoCo Coverage Report,org.apache.jcs.utils.struct,LRUMapEntry,23,0,0,0,9,0,4,0,4,0
 JaCoCo Coverage Report,org.apache.jcs.utils.struct,SingleLinkedList.Node,6,0,0,0,2,0,1,0,1,0
 JaCoCo Coverage Report,org.apache.jcs.utils.struct,DoubleLinkedListNode,3,6,0,0,1,3,1,1,1,1
-JaCoCo Coverage Report,org.apache.jcs.utils.struct,DoubleLinkedList,80,199,15,21,21,59,14,16,4,8
+JaCoCo Coverage Report,org.apache.jcs.utils.struct,DoubleLinkedList,96,183,16,20,24,56,15,15,4,8
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk.jdbc,TableState,58,0,0,0,15,0,6,0,6,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk.jdbc,JDBCDiskCacheFactory,22,0,0,0,7,0,4,0,4,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk.jdbc,JDBCDiskCacheManagerAbstractTemplate,220,0,24,0,51,0,19,0,7,0
@@ -55,7 +55,7 @@ JaCoCo Coverage Report,org.apache.jcs.utils.serialization,StandardSerializer,48,
 JaCoCo Coverage Report,org.apache.jcs.utils.serialization,SerializationConversionUtil,111,0,12,0,35,0,10,0,4,0
 JaCoCo Coverage Report,org.apache.jcs.engine.memory.lru,LRUMemoryCache.IteratorWrapper,39,0,0,0,9,0,6,0,6,0
 JaCoCo Coverage Report,org.apache.jcs.engine.memory.lru,LRUMemoryCache.MapEntryWrapper,33,0,0,0,8,0,6,0,6,0
-JaCoCo Coverage Report,org.apache.jcs.engine.memory.lru,LRUMemoryCache,647,563,67,35,113,118,51,20,9,11
+JaCoCo Coverage Report,org.apache.jcs.engine.memory.lru,LRUMemoryCache,665,545,70,32,118,113,52,19,9,11
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk,AbstractDiskCache.new Runnable() {...},46,0,4,0,13,0,4,0,2,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk,AbstractDiskCacheAttributes,95,0,0,0,25,0,11,0,11,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.disk,AbstractDiskCache,470,0,28,0,119,0,27,0,13,0
@@ -125,11 +125,11 @@ JaCoCo Coverage Report,org.apache.jcs.auxiliary.lateral.socket.tcp.discovery,UDP
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.lateral.socket.tcp.discovery,UDPDiscoveryMessage,144,0,2,0,32,0,13,0,12,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.lateral.socket.tcp.discovery,UDPDiscoveryReceiver.MessageHandler,182,0,22,0,46,0,13,0,2,0
 JaCoCo Coverage Report,org.apache.jcs.engine.memory.shrinking,ShrinkerThread,364,0,58,0,87,0,35,0,6,0
-JaCoCo Coverage Report,org.apache.jcs.access,CacheAccess,241,86,11,5,63,24,27,11,20,10
+JaCoCo Coverage Report,org.apache.jcs.access,CacheAccess,250,77,11,5,66,21,29,9,22,8
 JaCoCo Coverage Report,org.apache.jcs.access,GroupCacheAccess,138,4,12,0,28,2,15,1,9,1
 JaCoCo Coverage Report,org.apache.jcs.engine.control,CompositeCacheConfigurator,301,498,44,32,57,94,34,20,4,12
 JaCoCo Coverage Report,org.apache.jcs.engine.control,CompositeCacheManager,458,246,47,13,109,65,51,15,22,14
-JaCoCo Coverage Report,org.apache.jcs.engine.control,CompositeCache,1109,421,186,26,257,105,127,25,23,23
+JaCoCo Coverage Report,org.apache.jcs.engine.control,CompositeCache,1117,413,186,26,260,102,128,24,24,22
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.remote,RemoteCacheAttributes,365,0,8,0,95,0,43,0,39,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.remote,RemoteCacheWatchRepairable,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,org.apache.jcs.auxiliary.remote,RemoteCacheFailoverRunner,684,0,88,0,150,0,51,0,7,0

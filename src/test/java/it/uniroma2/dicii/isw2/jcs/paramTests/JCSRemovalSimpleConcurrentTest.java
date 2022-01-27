@@ -27,9 +27,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
-/**
- * Verify that basic removal functionality works.
- */
+
 public class JCSRemovalSimpleConcurrentTest
 {
 
@@ -37,11 +35,6 @@ public class JCSRemovalSimpleConcurrentTest
     private int count = 0;
     private JCS jcs;
 
-    /**
-     * Verify that 2 level deep hierchical removal works.
-     *
-     * @throws Exception
-     */
     @Test
     public void testTwoDeepRemoval()
         throws Exception
@@ -78,11 +71,6 @@ public class JCSRemovalSimpleConcurrentTest
 
     }
 
-    /**
-     * Verify that 1 level deep hierchical removal works.
-     *
-     * @throws Exception
-     */
     @Test
     public void testSingleDepthRemoval()
         throws Exception
@@ -117,11 +105,6 @@ public class JCSRemovalSimpleConcurrentTest
 
     }
 
-    /**
-     * Verify that clear removes everyting as it should.
-     *
-     * @throws Exception
-     */
     @Test
     public void testClear()
         throws Exception
@@ -161,11 +144,6 @@ public class JCSRemovalSimpleConcurrentTest
 
     }
 
-    /**
-     * Verify that we can clear repeatedly without error.
-     *
-     * @throws Exception
-     */
     @Test
     public void testClearRepeatedlyWithoutError()
         throws Exception
@@ -211,6 +189,6 @@ public class JCSRemovalSimpleConcurrentTest
     public void configure() throws CacheException {
         JCS.setConfigFilename( "/TestRemoval.ccf" );
         this.jcs = JCS.getInstance( "testCache1" );
-        this.count = 500;
+        this.count = 998;
     }
 }

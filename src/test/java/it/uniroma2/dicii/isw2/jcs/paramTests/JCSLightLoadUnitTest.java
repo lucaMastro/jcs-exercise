@@ -32,6 +32,7 @@ public class JCSLightLoadUnitTest
 {
     private int items;
     private JCS jcs;
+    private String removalKey;
 
     public JCSLightLoadUnitTest() throws CacheException {
         this.configure();
@@ -39,9 +40,6 @@ public class JCSLightLoadUnitTest
 
     @Test
     public void testSimpleLoad() throws CacheException {
-        ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
-        cattr.setMaxObjects( 20002 );
-        jcs.setCacheAttributes( cattr );
 
         for ( int i = 1; i <= items; i++ )
         {
@@ -58,13 +56,17 @@ public class JCSLightLoadUnitTest
         }
 
         // test removal
-        jcs.remove( "300:key" );
-        assertNull( jcs.get( "300:key" ) );
+        jcs.remove( removalKey );
+        assertNull( jcs.get( removalKey ) );
     }
 
     public void configure() throws CacheException {
         JCS.setConfigFilename( "/TestSimpleLoad.ccf" );
         jcs = JCS.getInstance( "testCache1" );
-        items = 2000;
+        ICompositeCacheAttributes cattr = jcs.getCacheAttributes();
+        cattr.setMaxObjects( 2000 );
+        jcs.setCacheAttributes( cattr );
+        items = 200;
+        removalKey = "100:key";
     }
 }
